@@ -16,3 +16,10 @@ let tetris = new Tetris();
 
 // Initialize the game
 tetris.init();
+
+document.addEventListener('keydown', (event) => {
+  console.log(event.key);
+  if (event.key === 'Enter') {
+    window.location.reload();
+  }
+});

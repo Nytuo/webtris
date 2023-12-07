@@ -28,6 +28,10 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-image: url(/404BG.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 h1 {
@@ -42,16 +46,16 @@ h1 {
 }
 
 .logo {
-  height: 6em;
+  height: 8em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #4fad56);
 }
 .logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #3e43c1);
+  filter: drop-shadow(0 0 2em #4fad56);
 }
 
 .card {
@@ -63,50 +67,50 @@ h1 {
 }
 
 .cell{
-  width: 2em;
-  height: 2em;
+  width: 1.1em;
+  height: 1.1em;
   border: 1px solid #1a1a1a;
   border-radius: 4px;
   background-color: #1a1a1a;
 }
 
 .cell.red {
-  background-color: #ff6464;
+  background-color: #88f384;
 }
 
 .cell.blue {
-  background-color: #646cff;
+  background-color: #2ad417;
 }
 
 .cell.green {
-  background-color: #64ff64;
+  background-color: #178017;
 }
 
 .cell.yellow {
-  background-color: #ffff64;
+  background-color: #3bd503;
 }
 
 .cell.purple {
-  background-color: #ff64ff;
+  background-color: #07ad12;
 }
 
 .cell.cyan {
-  background-color: #64ffff;
+  background-color: #0fc96c;
 }
 
 .cell.orange {
-  background-color: #ffaa64;
+  background-color: #6eeb09;
 }
 .cell.pink {
-  background-color: #ff64aa;
+  background-color: #024705;
 }
 
 .cell.grey {
-  background-color: #c2b3b3;
+  background-color: #0dc7c1;
 }
 
 .cell.rgb {
-  background-color: #eaff00;
+  background-color: #c517bc;
 }
 
 .cell.border {
